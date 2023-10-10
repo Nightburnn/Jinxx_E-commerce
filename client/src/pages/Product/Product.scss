@@ -36,7 +36,7 @@
 
     .price{
       font-size: 30px;
-      color: #2879fe;
+      color: #7B3F00;
       font-weight: 500;
     }
 
@@ -65,7 +65,7 @@
     .add{
       width: 250px;
       padding: 10px;
-      background-color: #2879fe;
+      background-color: #7B3F00;
       color: white;
       display: flex;
       align-items: center;
@@ -74,6 +74,10 @@
       cursor: pointer;
       border: none;
       font-weight: 500;
+
+      &:hover{
+      background-color: #834333;
+      }
     }
 
     .links{
